@@ -1,0 +1,30 @@
+/*------CABEÇALHO-----*/
+body{
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    display: block;
+    margin: 10px;
+    width: 20vw;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color: rgb(207, 6, 160);
+}
+
+/*-----MAIN-----*/
