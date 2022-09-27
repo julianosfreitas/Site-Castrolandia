@@ -13,17 +13,17 @@ header{
     align-items: center;
 }
 
-#logo{
+.castro_logo{
     display: block;
-    margin: 10px;
-    width: 20vw;
+    margin: auto;
+    width: 18vw;
 }
 
 li{
     display: inline-block;
-    margin: 20px;
+    margin: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 27px;
+    font-size: 20px;
     color: rgb(207, 6, 160);
 }
 
