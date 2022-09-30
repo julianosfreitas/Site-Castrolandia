@@ -1,0 +1,66 @@
+/*------CABEÇALHO-----*/
+
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure > .castro_logo{
+    display: block;
+    margin: auto;
+    width: 18vw;
+}
+
+nav > ul > a > li{
+    display: inline-block;
+    margin: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(207, 6, 160);
+}
+
+/*-----MAIN-----*/
+
+article > h1{
+    color: rgb(207, 6, 160);
+    font-size: 5;
+    text-align: center;
+}
+
+article > p{
+    color: rgb(207, 6, 160);
+    font-size: 3;
+    text-align: center;
+}
+
+figure > #home{
+    display: block;
+    margin: 55px auto;
+    width: 30vw;
+}
+
+/*-----FOOTER------*/
+address > a{
+    color: white;
+}
+
+address{
+    background-color: rgb(207, 6, 160);
+    margin: 0px auto;
+    width: 100%;
+    height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
